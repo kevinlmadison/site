@@ -1,0 +1,33 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <url>
+            <loc>https://kelevra.io/posts/first-post/</loc>
+            
+                <lastmod>2018-01-21</lastmod>
+            
+        </url>
+    
+    
+        <url>
+            <loc>https://kelevra.io/</loc>
+        </url>
+    
+        <url>
+            <loc>https://kelevra.io/posts/</loc>
+        </url>
+    
+    
+    
+        <url>
+            <loc>https://kelevra.io/tags/</loc>
+        </url>
+    
+        <url>
+            <loc>https://kelevra.io/tags/hello/</loc>
+        </url>
+    
+        <url>
+            <loc>https://kelevra.io/tags/wizard/</loc>
+        </url>
+    
+</urlset>

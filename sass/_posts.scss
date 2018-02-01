@@ -1,0 +1,67 @@
+.footnotes {
+  font-size: 85%;
+
+  li {
+    margin-bottom: 1rem;
+  }
+}
+
+sup, sub {
+  line-height: 0;
+}
+
+a.anchorjs-link:hover {
+    text-decoration: none;
+}
+
+main .page {
+  @include libre();
+
+  time {
+    margin-top: -.2em;
+    margin-bottom: 1em;
+    display: block;
+    color: $light_text;
+    font-style: italic;
+  }
+
+  code, ol li code {
+    padding: 2px 4px;
+    color: $code_text;
+    background-color: $code_background;
+    border-radius: 4px;
+  }
+
+  pre {
+    padding: 0.5em 1em;
+    font-size: 14px;
+    background-color: $code_background !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    span {
+      background-color: $code_background !important;
+    }
+  }
+
+  p img {
+    max-width: 99%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /* Post Headers */
+  h1 {
+    //padding-top: 1em;
+    font-size: bold;
+    margin-bottom: 0px;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    @include libre();
+  }
+}

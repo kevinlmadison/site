@@ -1,0 +1,17 @@
+main div.page {
+  #footnotes {
+    width: 100%;
+    border-top: 1px solid #eee;
+    padding-top: 0.5em;
+    text-decoration: underline;
+  }
+
+  div.footnote-definition {
+    font-weight: bold;
+
+    p {
+      font-weight: normal;
+    }
+  }
+}
+

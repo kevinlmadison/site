@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% import "macros.html" as macros %}
+{% block title %} {{ tag.name }} | {{ config.title }} {% endblock title %}
+
+{% block main %}
+  <h1 class="tag-header"> {{ tag.name | title }} </h1>
+
+  <div class="tag-pages">
+      {% for page in tag.pages %}
+        <h2 class="post-title"><a href="/posts/{{page.slug}}">{{ page.title }}</a></h2>
+      {% endfor %}
+  </div>
+
+{% endblock main %}

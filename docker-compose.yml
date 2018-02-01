@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  web:
+    restart: always
+    build:
+      context: .
+    image: kevinlmadison/site
+    ports:
+      - "8080:8080"

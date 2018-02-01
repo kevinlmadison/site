@@ -1,0 +1,60 @@
+#chart_wrapper {
+  // works but not really
+  /*position: absolute;
+  right: 0px;
+  left: 0px;*/
+  
+  position: relative;
+  width: 98vw;
+  //height: 100vw;
+  margin: 0 auto;
+  left: calc(-49vw + 50%);
+}
+
+g.axis .tick line {
+  opacity: .2;
+}
+
+.x-label {
+  font-size: 1.5em;
+  font: sans-serif;
+}
+
+.line {
+  fill: none;
+  stroke-width: 1.5px;
+}
+
+.axis--y {
+  path.domain {
+    opacity: .8;
+  }
+}
+
+svg g:hover {
+  line,path {
+    opacity: .1;
+  }
+  line:hover, path:hover {
+    opacity: 1;
+  }
+}
+
+.city {
+  pointer-events: all;
+  path {
+    opacity: 1;
+    stroke-width: 4px;
+  }
+  &:hover {
+    color: red;
+    .line {
+      opacity: 1;
+    }
+    text {
+      font-weight: bold;
+      font-size: 20px;
+      text-decoration: underline;
+    }
+  }
+}

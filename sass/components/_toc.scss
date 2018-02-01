@@ -1,0 +1,77 @@
+// Don't display by default.
+aside#toc {
+  display: none;
+}
+
+@media (min-width: 80rem) {
+  aside#toc {
+    display: block;
+    width: 12rem;
+    position: fixed;
+    top: 4rem;
+    margin-left: -15rem;
+    font-size: 90%;
+    line-height: 1.2;
+    opacity: .5;
+    transition: opacity .5s;
+  }
+
+  aside#toc:hover {
+    opacity: 1;
+  }
+
+  aside#toc h2 {
+    font-size: 110%;
+    margin-bottom: .2rem;
+  }
+
+  aside#toc ol {
+    margin: 0 0 .2rem 0;
+    padding: 0 0 0 1rem;
+    list-style:none;
+  }
+
+  aside#toc ol li:before {
+    content: "";
+    border-color: transparent $code_text;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+  }
+
+  aside#toc.coarse li ol {
+    display: none;
+  }
+
+  aside#recent-updates {
+    position: absolute;
+    max-width: 17rem;
+    top: 4rem;
+    margin-left: 45rem;
+    margin-right: 2rem;
+    font-size: 90%;
+  }
+
+  aside#recent-updates h2 {
+    font-size: 110%;
+    margin-bottom: .2rem;
+  }
+
+  aside#recent-updates ul {
+    margin: 0 0 .2rem 0;
+    padding: 0 0 0 1rem;
+  }
+
+  aside#recent-updates ul li {
+    margin-top: .5rem;
+  }
+}
+
+aside#recent-updates time {
+  color: #9a9a9a;
+}

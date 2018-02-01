@@ -1,0 +1,15 @@
+div.after-post {
+  text-align: center;
+  color: $med_text;
+  
+  div.tags {
+    a {
+      color: $med_text;
+      text-decoration: underline;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}

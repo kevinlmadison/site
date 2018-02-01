@@ -1,0 +1,26 @@
+a.gutenberg-anchor {
+  display: none;
+}
+
+@media (min-width: 80rem) {
+  a.gutenberg-anchor {
+   display: block; 
+   opacity: 0;
+   position: absolute;
+   margin-left: -.8em;
+   margin-top: -.1em;
+   padding-right: 1em;
+   font-size: 1.3em;
+   vertical-align: baseline;
+   line-height: 1.3em;
+
+    &:hover {
+     text-decoration: none;
+    }
+  }
+
+  :hover > a.gutenberg-anchor {
+    opacity: 1;
+    text-decoration: none;
+  }
+}

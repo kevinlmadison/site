@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+      <title>{% block title %}{% endblock title %}</title>
+
+      <meta charset="UTF-8">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="{{ config.description }}">
+      <meta name="author" content="{{ config.extra.author.name }}">
+
+      <link rel="stylesheet" href="/main.css") }}">
+      <script async src="/js/bundle.js"></script>
+
+      {% block head %}{% endblock head %}
+  </head>
+
+  <body>
+      <div class="container content">
+
+          <main>{% block main %}{% endblock main %}</main>
+
+          <div>{% block after_main %}{% endblock after_main %}</div>
+      </div>
+  </body>
+</html>

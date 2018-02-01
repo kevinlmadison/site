@@ -1,0 +1,17 @@
+/*
+ * This overrides Gutenburg's syntax
+ * highlighting. I chose to do this 
+ * instead of editing the sublime
+ * theme bases because this is far 
+ * more straightfoward.
+ */
+
+div.container.content > main > pre {
+    font-size: 14px !important;
+    background-color: rgb(240, 240, 240) !important;
+    border-radius: 4px !important;
+  span {
+    font-size: 14px !important;
+    background-color: rgb(240, 240, 240) !important;
+  }
+}

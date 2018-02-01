@@ -1,0 +1,245 @@
+/* smash sprites */
+  $ssbm-img: 'images/ssbm.png';
+
+  .sprite {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    //transform: translateY(0px);
+    transform: scale(0.9, 0.9);
+    vertical-align: bottom;
+  }
+
+  .sprite-large {
+    transform: scale(1.5, 1.5);
+    transform-origin: 0;
+  }
+
+  .sprite-doc {
+    background: url($ssbm-img) no-repeat -36px -1px;
+  }
+
+  .sprite-mario {
+    background: url($ssbm-img) no-repeat -177px -1px;
+  }
+
+  .sprite-mario-lakers {
+    background: url($ssbm-img) no-repeat -204px -1px;
+  }
+
+  .sprite-mario-green {
+    background: url($ssbm-img) no-repeat -285px -1px;
+  }
+
+  .sprite-luigi {
+    background: url($ssbm-img) no-repeat -329px -1px;
+  }
+
+  .sprite-bowser {
+    background: url($ssbm-img) no-repeat -454px -1px;
+  }
+
+  .sprite-peach {
+    background: url($ssbm-img) no-repeat -56px -38px;
+  }
+
+  .sprite-peach-blue {
+    background: url($ssbm-img) no-repeat -143px -38px;
+  }
+
+  .sprite-peach-green {
+    background: url($ssbm-img) no-repeat -172px -38px;
+  }
+
+  .sprite-yoshi {
+    background: url($ssbm-img) no-repeat -218px -38px;
+  }
+
+  .sprite-yoshi-red {
+    background: url($ssbm-img) no-repeat -247px -38px;
+  }
+
+  .sprite-yoshi-blue {
+    background: url($ssbm-img) no-repeat -276px -38px;
+  }
+
+  .sprite-yoshi-pink {
+    background: url($ssbm-img) no-repeat -334px -38px;
+  }
+
+  .sprite-yoshi-cyan {
+    background: url($ssbm-img) no-repeat -363px -38px;
+  }
+
+  .sprite-dk {
+    background: url($ssbm-img) no-repeat -407px -38px;
+  }
+
+  .sprite-falcon {
+    background: url($ssbm-img) no-repeat -1px -74px;
+  }
+
+  .sprite-falcon-grey {
+    background: url($ssbm-img) no-repeat -29px -74px;
+  }
+
+  .sprite-falcon-red {
+    background: url($ssbm-img) no-repeat -57px -74px;
+  }
+
+  .sprite-falcon-love {
+    background: url($ssbm-img) no-repeat -85px -74px;
+  }
+
+  .sprite-falcon-green {
+    background: url($ssbm-img) no-repeat -113px -74px;
+  }
+
+  .sprite-falcon-blue {
+    background: url($ssbm-img) no-repeat -141px -74px;
+  }
+
+  .sprite-ganon {
+    background: url($ssbm-img) no-repeat -188px -74px;
+  }
+
+  .sprite-ganon-purple {
+    background: url($ssbm-img) no-repeat -304px -74px;
+  }
+
+  .sprite-falco {
+    background: url($ssbm-img) no-repeat -354px -74px;
+  }
+
+  .sprite-falco-red {
+    background: url($ssbm-img) no-repeat -383px -74px;
+  }
+
+  .sprite-falco-blue {
+    background: url($ssbm-img) no-repeat -412px -74px;
+  }
+
+  .sprite-falco-green {
+    background: url($ssbm-img) no-repeat -441px -74px;
+  }
+
+  .sprite-fox {
+    background: url($ssbm-img) no-repeat -490px -74px;
+  }
+
+  .sprite-fox-orange {
+    background: url($ssbm-img) no-repeat -519px -74px;
+  }
+
+  .sprite-fox-blue {
+    background: url($ssbm-img) no-repeat -548px -74px;
+  }
+
+  .sprite-fox-green {
+    background: url($ssbm-img) no-repeat -577px -74px;
+  }
+
+  .sprite-ness {
+    background: url($ssbm-img) no-repeat -14px -110px;
+  }
+
+  .sprite-icies {
+    background: url($ssbm-img) no-repeat -142px -109px;
+  }
+
+  .sprite-kirby {
+    background: url($ssbm-img) no-repeat -270px -111px;
+  }
+
+  .sprite-samus {
+    background: url($ssbm-img) no-repeat -445px -111px;
+  }
+
+  .sprite-samus-pink {
+    background: url($ssbm-img) no-repeat -474px -111px;
+  }
+
+  .sprite-samus-brown {
+    background: url($ssbm-img) no-repeat -503px -111px;
+  }
+
+  .sprite-samus-purple {
+    background: url($ssbm-img) no-repeat -561px -111px;
+  }
+
+  .sprite-zelda {
+    background: url($ssbm-img) no-repeat -62px -146px;
+  }
+
+  .sprite-shiek {
+    background: url($ssbm-img) no-repeat -224px -146px;
+  }
+
+  .sprite-link {
+    background: url($ssbm-img) no-repeat -386px -146px;
+  }
+
+  .sprite-yl {
+    background: url($ssbm-img) no-repeat -22px -182px;
+  }
+
+  .sprite-pichu {
+    background: url($ssbm-img) no-repeat -182px -184px;
+  }
+
+  .sprite-pikachu {
+    background: url($ssbm-img) no-repeat -310px -182px;
+  }
+
+  .sprite-pikachu-wizard {
+    background: url($ssbm-img) no-repeat -368px -182px;
+  }
+
+  .sprite-jigglypuff {
+    background: url($ssbm-img) no-repeat -441px -182px;
+  }
+
+  .sprite-jigglypuff-green {
+    background: url($ssbm-img) no-repeat -524px -182px;
+  }
+
+  .sprite-mewtwo {
+    background: url($ssbm-img) no-repeat -25px -217px;
+  }
+
+  .sprite-gw {
+    background: url($ssbm-img) no-repeat -140px -220px;
+  }
+
+  .sprite-marth {
+    background: url($ssbm-img) no-repeat -273px -217px;
+  }
+
+  .sprite-marth-red {
+    background: url($ssbm-img) no-repeat -301px -217px;
+  }
+
+  .sprite-marth-green {
+    background: url($ssbm-img) no-repeat -329px -217px;
+  }
+
+  .sprite-marth-black {
+    background: url($ssbm-img) no-repeat -357px -217px;
+  }
+
+  .sprite-marth-white {
+    background: url($ssbm-img) no-repeat -385px -217px;
+  }
+
+  .sprite-roy {
+    background: url($ssbm-img) no-repeat -434px -217px;
+  }
+
+  .sprite-roy-green {
+    background: url($ssbm-img) no-repeat -521px -217px;
+  }
+
+  .sprite-roy-yellow {
+    background: url($ssbm-img) no-repeat -550px -217px;
+  }
+

@@ -1,0 +1,43 @@
+/* Libre Baskerville */
+
+  @font-face {
+    font-family: LibreBaskerville;
+    src: url("/font/libre/LibreBaskerville-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: LibreBaskerville;
+    src: url("/font/libre/LibreBaskerville-Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: LibreBaskerville;
+    src: url("/font/libre/LibreBaskerville-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+/* Raleway */
+
+  @font-face {
+    font-family: RalewayThin;
+    src: url("/font/raleway/Raleway-ExtraLight.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @mixin libre() {
+    font-family: "LibreBaskerville", serif, $font-stack-system;
+  }
+  @mixin raleway-thin() {
+    font-family: "RalewayThin", sans-serif, $font-stack-system;
+  }
+
+/* Font classes */
+  .libre { font-family: "LibreBaskerville", $font-stack-system; }
+  .raleway { font-family: "RalewayThin", $font-stack-system; }
+

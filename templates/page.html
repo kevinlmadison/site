@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% import "macros.html" as macros %}
+{% block title %}{{ page.title }} | {{ config.title }}{% endblock title %}
+
+{% block head %}
+  {% if page.extra.mathjax %}
+    <script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+  {% endif %}
+{% endblock head %}
+
+{% block main %}
+  <div class="page">
+    <h1>{{ page.title }}</h1>
+    <time datetime="{{ page.date | date(format="%Y-%m-%d") }}" class="page-date">
+        {{ page.date | date(format="%b %d, %Y") }}
+        {% if page.extra.updated %} (updated on {{ page.extra.updated | date(format="%b %d, %Y") }}) {% endif %}
+    </time>
+    <aside id="toc">
+        <h2>Table of Contents</h2>
+        <ol>
+            {% for h2 in page.toc %}<li>
+                <a href="{{h2.permalink | safe}}">{{ h2.title | safe }}</a>
+                {% if h2.children %}<ol>
+                    {% for h3 in h2.children %}<li>
+                        <a href="{{h3.permalink | safe}}">{{ h3.title | safe }}</a>
+                    </li>{% endfor %}
+                </ol>{% endif %}
+            </li>{% endfor %}
+        </ol>
+    </aside>
+    {{ page.content | safe }}
+  </div>
+{% endblock main %}
+
+{% block after_main %}
+    <hr>
+    <div class="after-post">
+        {% if page.previous %}
+          Previous: <i>
+            <a class="prev" href="{{ page.previous.permalink | safe }}">{{ page.previous.title }}</a>
+          </i>
+        {% endif %}
+        {% if page.next %}
+          Next: <i>
+            <a class="next" href="{{ page.next.permalink | safe }}">{{ page.next.title }}</a>
+          </i>
+        {% endif %}
+        {% if page.tags %}
+          <div class="tags">
+            Tags: 
+            {{ macros::render_tags(tags=page.tags) }}
+          </div>
+        {% endif %}
+    </div>
+    <!--
+    <section>
+        <h2>Comments</h2>
+        <section id="isso-thread"></section>
+    </section>
+    -->
+
+    {% include "_footer.html" %}
+    {% endblock after_main %}
