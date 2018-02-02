@@ -1,8 +1,12 @@
 +++
-title = "Hello"
-date = 2018-01-21
+title = "The New Year"
+date = 2018-02-01
 tags = ["hello", "wizard"]
 +++
 
-# Header
-Andrew is wizard in some universe but not this one.
+### Programming is the Best!
+
+So this last spring (2017) I left my job and went back to school to study
+computer engineering full-time, and it was the best decision I've made in 
+a while. Now to learn some more markdown since I now have a sight to share
+with the world.

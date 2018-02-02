@@ -1,5 +1,5 @@
 +++
-title = "Posts"
+title = "Post History"
 template = "section.html"
 sort_by = "date"
 paginate_by = 7
