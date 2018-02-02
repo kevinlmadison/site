@@ -1,7 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://kelevra.io/posts/first-post/</loc>
+            <loc>http://127.0.0.1:1111/posts/first-post/</loc>
             
                 <lastmod>2018-02-01</lastmod>
             
@@ -9,25 +9,25 @@
     
     
         <url>
-            <loc>https://kelevra.io/posts/</loc>
+            <loc>http://127.0.0.1:1111/posts/</loc>
         </url>
     
         <url>
-            <loc>https://kelevra.io/</loc>
+            <loc>http://127.0.0.1:1111/</loc>
         </url>
     
     
     
         <url>
-            <loc>https://kelevra.io/tags/</loc>
+            <loc>http://127.0.0.1:1111/tags/</loc>
         </url>
     
         <url>
-            <loc>https://kelevra.io/tags/hello/</loc>
+            <loc>http://127.0.0.1:1111/tags/hello/</loc>
         </url>
     
         <url>
-            <loc>https://kelevra.io/tags/wizard/</loc>
+            <loc>http://127.0.0.1:1111/tags/wizard/</loc>
         </url>
     
 </urlset>
