@@ -8,5 +8,5 @@ tags = ["hello", "wizard"]
 
 So this last spring (2017) I left my job and went back to school to study
 computer engineering full-time, and it was the best decision I've made in 
-a while. Now to learn some more markdown since I now have a sight to share
+a while. Now to learn some more markdown since I now have a site to share
 with the world.
